@@ -1,0 +1,133 @@
+a { color:white; text-decoration: none;
+font-family: "Arial, Helvetica, sans-serif";
+
+} 
+
+
+body {
+  
+  font-family: Helvetica, sans-serif;
+  padding-bottom: 100px;
+  background-color: #white;
+}
+html, body {
+
+  margin: 0;
+}
+.bar{
+	display: flex;
+	max-width: 100%;
+	background-color: 33ccff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 1%;
+
+}
+.titleBox{
+	display: flex;
+	margin: 5px;
+	width:  20%;
+	padding-left: 1%;
+}
+
+
+.titleLink{
+	font-size: 20px;
+	padding: 5px;
+	transition: background-color 0.5s ease;
+	border-radius: 10px;
+}
+.boxes{
+	display: flex;
+	justify-content: space-around;
+	margin-left: auto;
+	width: 30%;
+}
+.box:hover{
+	background-color: #orange;
+}
+.titleLink:hover > a{color: black;} 
+.box:hover > .link > a{color: black;}
+a{transition: color 0.25s ease;}
+
+.box{
+	
+	margin: 5px;
+	padding: 5px;
+	transition: background-color 0.5s ease;
+	border-radius: 10px;
+}
+.link{
+	flex: 1;
+	font-size: 20px;
+}
+
+.foodImage{
+	display: flex;
+	width: 100%;
+	height: 475px;
+	background-image: url("blue.jpg");
+	background-size: cover;
+	align-items: center;
+    justify-content: center;
+}
+
+
+.foodText{
+	font-family: "Arial, Helvetica, sans-serif";
+	font-size: 100px;
+	color: 33ccff;
+	height: 100px;  
+	width: 150px;																				
+	display: flex;
+	align-items: center;
+    justify-content: center;
+}
+
+.row{
+	max-width: 80%;
+	display: flex;
+    justify-content: space-between;
+	margin: 60px auto 0 auto;
+	height: 300px;
+}
+
+.left{
+	background-color: red;
+	width: 45%;
+	padding-top: 50px;
+
+}
+
+.leftPadding{
+	background-color: purple;
+    justify-content: center;
+}
+
+.title{
+	font-size: 25px;
+	text-align: center;
+    background-color: blue;
+	font-family: "Arial, Helvetica, sans-serif";
+}
+
+.addy{
+	text-align: center;
+	font-family: "Arial, Helvetica, sans-serif";
+}
+.right{
+	background-color: orange;
+	width: 45%;
+	width: 45%;
+	padding-top: 50px;
+
+}
+
+.info{
+	text-align: left;
+	padding: 20px;
+	background-color: blue;
+	font-size: 22px;
+	font-family: "Arial, Helvetica, sans-serif";
+}
+
